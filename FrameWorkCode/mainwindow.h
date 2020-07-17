@@ -71,7 +71,7 @@ private slots:
 
     void mousePressEvent(QMouseEvent *ev);
 
-    void mouseReleaseEvent(QMouseEvent *ev);
+   // void mouseReleaseEvent(QMouseEvent *ev);
 
     //void mouseMoveEvent(QMouseEvent *event);
 
@@ -80,7 +80,6 @@ private slots:
     //void mouseMoveEvent(QMouseEvent* e) override { e->ignore(); }
 
     //bool eventFilter(QObject *object, QEvent *event);
-
 
     void on_actionLoad_Next_Page_triggered();
 
@@ -172,7 +171,7 @@ private slots:
 
     void on_actionAccuracyLog_triggered();
     
-    void on_actionHighlight_toggled(bool arg1);
+ //   void on_actionHighlight_toggled(bool arg1);
 
     void on_actionHighlight_triggered();
 
